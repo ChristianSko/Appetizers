@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D60FF75A25B6ED890020782F /* Appetizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60FF75925B6ED890020782F /* Appetizer.swift */; };
 		D691F02C25B58E3300D84649 /* AppetizersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D691F02B25B58E3300D84649 /* AppetizersApp.swift */; };
 		D691F02E25B58E3300D84649 /* AppetizerTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D691F02D25B58E3300D84649 /* AppetizerTabView.swift */; };
 		D691F03025B58E3400D84649 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D691F02F25B58E3400D84649 /* Assets.xcassets */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D60FF75925B6ED890020782F /* Appetizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appetizer.swift; sourceTree = "<group>"; };
 		D691F02825B58E3300D84649 /* Appetizers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Appetizers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D691F02B25B58E3300D84649 /* AppetizersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizersApp.swift; sourceTree = "<group>"; };
 		D691F02D25B58E3300D84649 /* AppetizerTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerTabView.swift; sourceTree = "<group>"; };
@@ -42,6 +44,7 @@
 		D691F01F25B58E3300D84649 = {
 			isa = PBXGroup;
 			children = (
+				D60FF75925B6ED890020782F /* Appetizer.swift */,
 				D691F02A25B58E3300D84649 /* Appetizers */,
 				D691F02925B58E3300D84649 /* Products */,
 			);
@@ -147,6 +150,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D60FF75A25B6ED890020782F /* Appetizer.swift in Sources */,
 				D691F04025B58EC200D84649 /* AccountView.swift in Sources */,
 				D691F02E25B58E3300D84649 /* AppetizerTabView.swift in Sources */,
 				D691F02C25B58E3300D84649 /* AppetizersApp.swift in Sources */,
