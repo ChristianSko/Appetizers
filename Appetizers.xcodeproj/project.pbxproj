@@ -18,6 +18,7 @@
 		D691F04025B58EC200D84649 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D691F03F25B58EC200D84649 /* AccountView.swift */; };
 		D691F04325B58ECC00D84649 /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D691F04225B58ECC00D84649 /* OrderView.swift */; };
 		D6A0691C25B83140002B873F /* AppetizerListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A0691B25B83140002B873F /* AppetizerListCell.swift */; };
+		D6A2A03E25BCAD9600289193 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A2A03D25BCAD9600289193 /* Alert.swift */; };
 		D6C492AC25BAD162007D247D /* AppetizerListViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C492AB25BAD162007D247D /* AppetizerListViewViewModel.swift */; };
 /* End PBXBuildFile section */
 
@@ -35,6 +36,7 @@
 		D691F03F25B58EC200D84649 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
 		D691F04225B58ECC00D84649 /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
 		D6A0691B25B83140002B873F /* AppetizerListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListCell.swift; sourceTree = "<group>"; };
+		D6A2A03D25BCAD9600289193 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
 		D6C492AB25BAD162007D247D /* AppetizerListViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListViewViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -73,6 +75,7 @@
 				D691F02D25B58E3300D84649 /* AppetizerTabView.swift */,
 				D691F03C25B58EB400D84649 /* AppetizerListView.swift */,
 				D6C492AB25BAD162007D247D /* AppetizerListViewViewModel.swift */,
+				D6A2A03D25BCAD9600289193 /* Alert.swift */,
 				D6205B8025B9785F00BE1A89 /* NetworkManager.swift */,
 				D6205B8325B9834A00BE1A89 /* APError.swift */,
 				D6A0691B25B83140002B873F /* AppetizerListCell.swift */,
@@ -170,6 +173,7 @@
 				D691F02E25B58E3300D84649 /* AppetizerTabView.swift in Sources */,
 				D6205B8125B9785F00BE1A89 /* NetworkManager.swift in Sources */,
 				D691F02C25B58E3300D84649 /* AppetizersApp.swift in Sources */,
+				D6A2A03E25BCAD9600289193 /* Alert.swift in Sources */,
 				D691F03D25B58EB400D84649 /* AppetizerListView.swift in Sources */,
 				D691F04325B58ECC00D84649 /* OrderView.swift in Sources */,
 			);

@@ -11,9 +11,6 @@ struct AppetizerListView: View {
     
     @StateObject var viewModel = AppetizerListViewViewModel()
     
-    
-    
-    
     var body: some View {
         NavigationView{
             List(viewModel.appetizers) { appetizer in
@@ -23,6 +20,11 @@ struct AppetizerListView: View {
         }
         .onAppear{
             viewModel.getAppetizers()
+        }
+        .alert(item: $viewModel.alertItem) { alertItem in
+            Alert(title: alertItem.title,
+                  message: alertItem.message,
+                  dismissButton: alertItem.dismissButton)
         }
     }
 }
