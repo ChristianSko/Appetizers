@@ -22,6 +22,7 @@
 		D6C492AC25BAD162007D247D /* AppetizerListViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C492AB25BAD162007D247D /* AppetizerListViewViewModel.swift */; };
 		D6E75D1425BD79FE00BC5FCA /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E75D1325BD79FE00BC5FCA /* LoadingView.swift */; };
 		D6E75D1725BD7B0000BC5FCA /* Color+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E75D1625BD7B0000BC5FCA /* Color+Ext.swift */; };
+		D6E75D1A25BD82FD00BC5FCA /* RemoteImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E75D1925BD82FD00BC5FCA /* RemoteImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		D6C492AB25BAD162007D247D /* AppetizerListViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListViewViewModel.swift; sourceTree = "<group>"; };
 		D6E75D1325BD79FE00BC5FCA /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		D6E75D1625BD7B0000BC5FCA /* Color+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Ext.swift"; sourceTree = "<group>"; };
+		D6E75D1925BD82FD00BC5FCA /* RemoteImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 				D691F02F25B58E3400D84649 /* Assets.xcassets */,
 				D691F03425B58E3400D84649 /* Info.plist */,
 				D691F03125B58E3400D84649 /* Preview Content */,
+				D6E75D1925BD82FD00BC5FCA /* RemoteImage.swift */,
 			);
 			path = Appetizers;
 			sourceTree = "<group>";
@@ -180,6 +183,7 @@
 				D6E75D1425BD79FE00BC5FCA /* LoadingView.swift in Sources */,
 				D691F02E25B58E3300D84649 /* AppetizerTabView.swift in Sources */,
 				D6205B8125B9785F00BE1A89 /* NetworkManager.swift in Sources */,
+				D6E75D1A25BD82FD00BC5FCA /* RemoteImage.swift in Sources */,
 				D691F02C25B58E3300D84649 /* AppetizersApp.swift in Sources */,
 				D6A2A03E25BCAD9600289193 /* Alert.swift in Sources */,
 				D691F03D25B58EB400D84649 /* AppetizerListView.swift in Sources */,
