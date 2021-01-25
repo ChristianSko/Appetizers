@@ -60,7 +60,6 @@
 		D691F01F25B58E3300D84649 = {
 			isa = PBXGroup;
 			children = (
-				D60FF75925B6ED890020782F /* Appetizer.swift */,
 				D691F02A25B58E3300D84649 /* Appetizers */,
 				D691F02925B58E3300D84649 /* Products */,
 			);
@@ -77,22 +76,14 @@
 		D691F02A25B58E3300D84649 /* Appetizers */ = {
 			isa = PBXGroup;
 			children = (
+				D6F13DA125BF03A200A67042 /* Model */,
+				D6F13D9D25BF031500A67042 /* Utilities */,
+				D6F13DA225BF03FE00A67042 /* Views */,
+				D6F13D9925BF02AB00A67042 /* Screens */,
 				D691F02B25B58E3300D84649 /* AppetizersApp.swift */,
-				D691F02D25B58E3300D84649 /* AppetizerTabView.swift */,
-				D691F03C25B58EB400D84649 /* AppetizerListView.swift */,
-				D6E75D1325BD79FE00BC5FCA /* LoadingView.swift */,
-				D6E75D1625BD7B0000BC5FCA /* Color+Ext.swift */,
-				D6C492AB25BAD162007D247D /* AppetizerListViewViewModel.swift */,
-				D6A2A03D25BCAD9600289193 /* Alert.swift */,
-				D6205B8025B9785F00BE1A89 /* NetworkManager.swift */,
-				D6205B8325B9834A00BE1A89 /* APError.swift */,
-				D6A0691B25B83140002B873F /* AppetizerListCell.swift */,
-				D691F03F25B58EC200D84649 /* AccountView.swift */,
-				D691F04225B58ECC00D84649 /* OrderView.swift */,
 				D691F02F25B58E3400D84649 /* Assets.xcassets */,
 				D691F03425B58E3400D84649 /* Info.plist */,
 				D691F03125B58E3400D84649 /* Preview Content */,
-				D6E75D1925BD82FD00BC5FCA /* RemoteImage.swift */,
 			);
 			path = Appetizers;
 			sourceTree = "<group>";
@@ -103,6 +94,119 @@
 				D691F03225B58E3400D84649 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D6F13D9925BF02AB00A67042 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				D691F02D25B58E3300D84649 /* AppetizerTabView.swift */,
+				D6F13D9A25BF02B400A67042 /* AppetizerListView */,
+				D6F13D9B25BF02C700A67042 /* AccountView */,
+				D6F13D9C25BF02CF00A67042 /* OrderView */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		D6F13D9A25BF02B400A67042 /* AppetizerListView */ = {
+			isa = PBXGroup;
+			children = (
+				D6C492AB25BAD162007D247D /* AppetizerListViewViewModel.swift */,
+				D691F03C25B58EB400D84649 /* AppetizerListView.swift */,
+			);
+			path = AppetizerListView;
+			sourceTree = "<group>";
+		};
+		D6F13D9B25BF02C700A67042 /* AccountView */ = {
+			isa = PBXGroup;
+			children = (
+				D691F03F25B58EC200D84649 /* AccountView.swift */,
+			);
+			path = AccountView;
+			sourceTree = "<group>";
+		};
+		D6F13D9C25BF02CF00A67042 /* OrderView */ = {
+			isa = PBXGroup;
+			children = (
+				D691F04225B58ECC00D84649 /* OrderView.swift */,
+			);
+			path = OrderView;
+			sourceTree = "<group>";
+		};
+		D6F13D9D25BF031500A67042 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				D6F13DA025BF037500A67042 /* Alerts */,
+				D6F13D9E25BF032D00A67042 /* Extensions */,
+				D6F13D9F25BF033B00A67042 /* Managers */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		D6F13D9E25BF032D00A67042 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D6E75D1625BD7B0000BC5FCA /* Color+Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		D6F13D9F25BF033B00A67042 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				D6205B8025B9785F00BE1A89 /* NetworkManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		D6F13DA025BF037500A67042 /* Alerts */ = {
+			isa = PBXGroup;
+			children = (
+				D6A2A03D25BCAD9600289193 /* Alert.swift */,
+				D6205B8325B9834A00BE1A89 /* APError.swift */,
+			);
+			path = Alerts;
+			sourceTree = "<group>";
+		};
+		D6F13DA125BF03A200A67042 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D60FF75925B6ED890020782F /* Appetizer.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D6F13DA225BF03FE00A67042 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D6F13DA525BF043800A67042 /* Image */,
+				D6F13DA425BF042B00A67042 /* Cells */,
+				D6F13DA325BF040F00A67042 /* UIKit Components */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D6F13DA325BF040F00A67042 /* UIKit Components */ = {
+			isa = PBXGroup;
+			children = (
+				D6E75D1325BD79FE00BC5FCA /* LoadingView.swift */,
+			);
+			path = "UIKit Components";
+			sourceTree = "<group>";
+		};
+		D6F13DA425BF042B00A67042 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				D6A0691B25B83140002B873F /* AppetizerListCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		D6F13DA525BF043800A67042 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				D6E75D1925BD82FD00BC5FCA /* RemoteImage.swift */,
+			);
+			path = Image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
