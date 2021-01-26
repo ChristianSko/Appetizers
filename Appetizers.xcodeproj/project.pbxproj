@@ -83,7 +83,6 @@
 				D6F13DA225BF03FE00A67042 /* Views */,
 				D6F13D9925BF02AB00A67042 /* Screens */,
 				D691F02B25B58E3300D84649 /* AppetizersApp.swift */,
-				D6F13DA625BF053D00A67042 /* AppetizerDetailView.swift */,
 				D691F02F25B58E3400D84649 /* Assets.xcassets */,
 				D691F03425B58E3400D84649 /* Info.plist */,
 				D691F03125B58E3400D84649 /* Preview Content */,
@@ -115,6 +114,7 @@
 			children = (
 				D6C492AB25BAD162007D247D /* AppetizerListViewViewModel.swift */,
 				D691F03C25B58EB400D84649 /* AppetizerListView.swift */,
+				D6F13DA625BF053D00A67042 /* AppetizerDetailView.swift */,
 			);
 			path = AppetizerListView;
 			sourceTree = "<group>";
