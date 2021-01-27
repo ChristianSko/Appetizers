@@ -10,6 +10,8 @@
 		D60FF75A25B6ED890020782F /* Appetizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60FF75925B6ED890020782F /* Appetizer.swift */; };
 		D6205B8125B9785F00BE1A89 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6205B8025B9785F00BE1A89 /* NetworkManager.swift */; };
 		D6205B8425B9834A00BE1A89 /* APError.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6205B8325B9834A00BE1A89 /* APError.swift */; };
+		D6618FCE25C167FF000D6D23 /* AppButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6618FCD25C167FF000D6D23 /* AppButton.swift */; };
+		D6618FD125C1698B000D6D23 /* XDismissButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6618FD025C1698B000D6D23 /* XDismissButton.swift */; };
 		D691F02C25B58E3300D84649 /* AppetizersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D691F02B25B58E3300D84649 /* AppetizersApp.swift */; };
 		D691F02E25B58E3300D84649 /* AppetizerTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D691F02D25B58E3300D84649 /* AppetizerTabView.swift */; };
 		D691F03025B58E3400D84649 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D691F02F25B58E3400D84649 /* Assets.xcassets */; };
@@ -30,6 +32,8 @@
 		D60FF75925B6ED890020782F /* Appetizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appetizer.swift; sourceTree = "<group>"; };
 		D6205B8025B9785F00BE1A89 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		D6205B8325B9834A00BE1A89 /* APError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APError.swift; sourceTree = "<group>"; };
+		D6618FCD25C167FF000D6D23 /* AppButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppButton.swift; sourceTree = "<group>"; };
+		D6618FD025C1698B000D6D23 /* XDismissButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XDismissButton.swift; sourceTree = "<group>"; };
 		D691F02825B58E3300D84649 /* Appetizers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Appetizers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D691F02B25B58E3300D84649 /* AppetizersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizersApp.swift; sourceTree = "<group>"; };
 		D691F02D25B58E3300D84649 /* AppetizerTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerTabView.swift; sourceTree = "<group>"; };
@@ -59,6 +63,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D6618FCC25C167E9000D6D23 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				D6618FCD25C167FF000D6D23 /* AppButton.swift */,
+				D6618FD025C1698B000D6D23 /* XDismissButton.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
 		D691F01F25B58E3300D84649 = {
 			isa = PBXGroup;
 			children = (
@@ -181,6 +194,7 @@
 		D6F13DA225BF03FE00A67042 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				D6618FCC25C167E9000D6D23 /* Buttons */,
 				D6F13DA525BF043800A67042 /* Image */,
 				D6F13DA425BF042B00A67042 /* Cells */,
 				D6F13DA325BF040F00A67042 /* UIKit Components */,
@@ -283,11 +297,13 @@
 			files = (
 				D60FF75A25B6ED890020782F /* Appetizer.swift in Sources */,
 				D6205B8425B9834A00BE1A89 /* APError.swift in Sources */,
+				D6618FD125C1698B000D6D23 /* XDismissButton.swift in Sources */,
 				D6A0691C25B83140002B873F /* AppetizerListCell.swift in Sources */,
 				D691F04025B58EC200D84649 /* AccountView.swift in Sources */,
 				D6E75D1725BD7B0000BC5FCA /* Color+Ext.swift in Sources */,
 				D6C492AC25BAD162007D247D /* AppetizerListViewViewModel.swift in Sources */,
 				D6E75D1425BD79FE00BC5FCA /* LoadingView.swift in Sources */,
+				D6618FCE25C167FF000D6D23 /* AppButton.swift in Sources */,
 				D691F02E25B58E3300D84649 /* AppetizerTabView.swift in Sources */,
 				D6205B8125B9785F00BE1A89 /* NetworkManager.swift in Sources */,
 				D6E75D1A25BD82FD00BC5FCA /* RemoteImage.swift in Sources */,
