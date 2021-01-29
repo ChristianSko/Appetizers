@@ -19,6 +19,8 @@
 		D691F03D25B58EB400D84649 /* AppetizerListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D691F03C25B58EB400D84649 /* AppetizerListView.swift */; };
 		D691F04025B58EC200D84649 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D691F03F25B58EC200D84649 /* AccountView.swift */; };
 		D691F04325B58ECC00D84649 /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D691F04225B58ECC00D84649 /* OrderView.swift */; };
+		D693289925C44DFB008BA2B9 /* AccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D693289825C44DFB008BA2B9 /* AccountViewModel.swift */; };
+		D693289C25C45095008BA2B9 /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = D693289B25C45095008BA2B9 /* String+Ext.swift */; };
 		D6A0691C25B83140002B873F /* AppetizerListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A0691B25B83140002B873F /* AppetizerListCell.swift */; };
 		D6A2A03E25BCAD9600289193 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A2A03D25BCAD9600289193 /* Alert.swift */; };
 		D6C492AC25BAD162007D247D /* AppetizerListViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C492AB25BAD162007D247D /* AppetizerListViewViewModel.swift */; };
@@ -43,6 +45,8 @@
 		D691F03C25B58EB400D84649 /* AppetizerListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListView.swift; sourceTree = "<group>"; };
 		D691F03F25B58EC200D84649 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
 		D691F04225B58ECC00D84649 /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
+		D693289825C44DFB008BA2B9 /* AccountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewModel.swift; sourceTree = "<group>"; };
+		D693289B25C45095008BA2B9 /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
 		D6A0691B25B83140002B873F /* AppetizerListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListCell.swift; sourceTree = "<group>"; };
 		D6A2A03D25BCAD9600289193 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
 		D6C492AB25BAD162007D247D /* AppetizerListViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListViewViewModel.swift; sourceTree = "<group>"; };
@@ -136,6 +140,7 @@
 			isa = PBXGroup;
 			children = (
 				D691F03F25B58EC200D84649 /* AccountView.swift */,
+				D693289825C44DFB008BA2B9 /* AccountViewModel.swift */,
 			);
 			path = AccountView;
 			sourceTree = "<group>";
@@ -162,6 +167,7 @@
 			isa = PBXGroup;
 			children = (
 				D6E75D1625BD7B0000BC5FCA /* Color+Ext.swift */,
+				D693289B25C45095008BA2B9 /* String+Ext.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -299,6 +305,7 @@
 				D6205B8425B9834A00BE1A89 /* APError.swift in Sources */,
 				D6618FD125C1698B000D6D23 /* XDismissButton.swift in Sources */,
 				D6A0691C25B83140002B873F /* AppetizerListCell.swift in Sources */,
+				D693289925C44DFB008BA2B9 /* AccountViewModel.swift in Sources */,
 				D691F04025B58EC200D84649 /* AccountView.swift in Sources */,
 				D6E75D1725BD7B0000BC5FCA /* Color+Ext.swift in Sources */,
 				D6C492AC25BAD162007D247D /* AppetizerListViewViewModel.swift in Sources */,
@@ -307,6 +314,7 @@
 				D691F02E25B58E3300D84649 /* AppetizerTabView.swift in Sources */,
 				D6205B8125B9785F00BE1A89 /* NetworkManager.swift in Sources */,
 				D6E75D1A25BD82FD00BC5FCA /* RemoteImage.swift in Sources */,
+				D693289C25C45095008BA2B9 /* String+Ext.swift in Sources */,
 				D691F02C25B58E3300D84649 /* AppetizersApp.swift in Sources */,
 				D6A2A03E25BCAD9600289193 /* Alert.swift in Sources */,
 				D691F03D25B58EB400D84649 /* AppetizerListView.swift in Sources */,
